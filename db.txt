@@ -1,0 +1,18 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+nome tabella : auto_usate
+
+id: NUMERO - TINYINT - PRIMARY KEY - AUTO_INCREMENT 
+numero_telaio: STRINGA - CHAR(17) - UNIQUE - NOTNULL
+marca: STRINGA - VARCHAR(30) - NOTNULL
+modello: STRINGA - VARCHAR(30) - NOTNULL
+cambio: STRINGA - VARCHAR(20) - NOTNULL
+immatricolazione: DATA - YEAR - NOTNULL
+carburante: STRINGA - VARCHAR(20) - NOTNULL
+km_percorsi: NUMERO - MEDIUMINT
+prezzo: NUMERO - FLOAT(8, 3)
+cilindrata: NUMERO - SMALLINT 
+colore: STRINGA - VARCHAR(20)
+
+
+
